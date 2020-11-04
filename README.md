@@ -5,7 +5,7 @@ interface from simple icon files.
 
 ## Why is this needed?
 
-![overview][doc/overview.png]
+![overview](doc/overview.png)
 
 The SAP Commerce Cloud Backoffice interface requires a special crafted sprite
 image to show it as icon in the explorer tree. This tool helps creating this
