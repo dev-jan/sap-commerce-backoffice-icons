@@ -30,4 +30,5 @@ exampleIcons/star.png => exampleIcons/backoffice-star.png
 ```
 
 That's it! Now you can use this icon sprite in your custom Backoffice extension
-as icon for your custom types.
+as icon for your custom types. For more help on how to do this, see
+[Tutorial](doc/Tutorial.md).
