@@ -84,7 +84,7 @@ class BackofficeIconConverter:
                 outImg[heightDisplaceInPixel + y, x] = color
 
 
-if __name__ == "__main__":
+def main():
     parser = argparse.ArgumentParser(
         description="Convert simple icons to the SAP Commerce Backoffice \
          explorer tree icon format. The icon must be a sprite consist of 5 \
@@ -107,3 +107,7 @@ if __name__ == "__main__":
         else:
             iconConverter.convertToDefault()
             print(f"{file} => {iconConverter.getDefaultTargetPath()}")
+
+
+if __name__ == "__main__":
+    main()
