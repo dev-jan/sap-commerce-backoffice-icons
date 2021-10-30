@@ -22,11 +22,13 @@ icon meeting the following criterias:
  - Transparent background (otherwise it will not really work)
  - File format should be "png"
 
+To run the icons creator, make sure to have Poetry installed (see https://python-poetry.org/docs/).
+
 Run the following command to create the sprite (replace the example icon with
 your own):
 
 ```
-$ python backofficeIconConverter.py exampleIcons/star.png
+$ poetry run python backofficeIconConverter.py exampleIcons/star.png
 Process icon exampleIcons/star.png...
 exampleIcons/star.png => exampleIcons/backoffice-star.png
 ```
@@ -38,5 +40,5 @@ as icon for your custom types. For more help on how to do this, see
 You can also convert multiple icons:
 
 ```
-$ python backofficeIconConverter.py ~/FolderWithSomeIcons/* --output converted
+$ poetry run python backofficeIconConverter.py ~/FolderWithSomeIcons/* --output converted
 ```

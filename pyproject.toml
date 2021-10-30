@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "sap-commerce-backoffice-icons"
+version = "0.1.0"
+description = "Simple Tool to create explorer tree icons for the SAP Commerce Backoffice interface"
+authors = ["Jan Bucher <jan@bucher.cloud>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.7,<3.11"
+numpy = "^1.21.3"
+Pillow = "^8.4.0"
+argparse = "^1.4.0"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^4.0.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
