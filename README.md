@@ -22,13 +22,12 @@ icon meeting the following criterias:
  - Transparent background (otherwise it will not really work)
  - File format should be "png"
 
-To run the icons creator, make sure to have Poetry installed (see https://python-poetry.org/docs/).
-
-Run the following command to create the sprite (replace the example icon with
+Run the following commands to create the sprite (replace the example icon with
 your own):
 
-```
-$ poetry run backofficeIconConverter exampleIcons/star.png
+```sh
+$ pip install sap-commerce-backoffice-icons
+$ backofficeIconConverter exampleIcons/star.png
 Process icon exampleIcons/star.png...
 exampleIcons/star.png => exampleIcons/backoffice-star.png
 ```
@@ -40,5 +39,24 @@ as icon for your custom types. For more help on how to do this, see
 You can also convert multiple icons:
 
 ```
-$ poetry run backofficeIconConverter ~/FolderWithSomeIcons/* --output converted
+$ backofficeIconConverter ~/FolderWithSomeIcons/* --output converted
+```
+
+
+## Install development environment
+
+To install the script for development or to run it directly from source, the following
+steps are needed:
+
+ - Install Python >3.7
+ - Install Poetry (see https://python-poetry.org/docs/)
+ - Make the project ready to be used:
+```sh
+git clone https://github.com/dev-jan/sap-commerce-backoffice-icons.git
+cd sap-commerce-backoffice-icons
+poetry install
+```
+ - Run the script via Poetry virtual env:
+```sh
+poetry run backofficeIconConverter exampleIcons/star.png
 ```
