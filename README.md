@@ -28,7 +28,7 @@ Run the following command to create the sprite (replace the example icon with
 your own):
 
 ```
-$ poetry run python backofficeIconConverter.py exampleIcons/star.png
+$ poetry run backofficeIconConverter exampleIcons/star.png
 Process icon exampleIcons/star.png...
 exampleIcons/star.png => exampleIcons/backoffice-star.png
 ```
@@ -40,5 +40,5 @@ as icon for your custom types. For more help on how to do this, see
 You can also convert multiple icons:
 
 ```
-$ poetry run python backofficeIconConverter.py ~/FolderWithSomeIcons/* --output converted
+$ poetry run backofficeIconConverter ~/FolderWithSomeIcons/* --output converted
 ```
