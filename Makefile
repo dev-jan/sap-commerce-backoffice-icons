@@ -1,7 +1,7 @@
 init:
-	pip install -r requirements.txt
+	poetry install
 
 check:
-	flake8 --show-source
+	poetry run flake8 . --show-source --exclude venv
 
 .PHONY: init check
