@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "sap_commerce_backoffice_icons"
-version = "0.1.0"
+version = "1.0.0"
 description = "Simple Tool to create explorer tree icons for the SAP Commerce Backoffice interface"
 authors = ["Jan Bucher <jan@bucher.cloud>"]
 license = "MIT"
